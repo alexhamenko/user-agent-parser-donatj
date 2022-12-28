@@ -16,7 +16,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "donatj/phpuseragentparser": "dev-master",
-        "olorin/user-agent-parser-interface": "dev-master"
+        "donatj/phpuseragentparser": "^1.7",
+        "olorin/user-agent-parser-interface": "^1.0"
     }
 }

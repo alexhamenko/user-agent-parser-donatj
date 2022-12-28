@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "39b842776419c8040cc7be747f390d23",
+    "content-hash": "68bb7afdfd8c899e77fd249ab6739905",
     "packages": [
         {
             "name": "donatj/phpuseragentparser",
-            "version": "dev-master",
+            "version": "v1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/donatj/PhpUserAgent.git",
-                "reference": "ada8ea2ebd8d6113cdaffe54b6dfed8c865ababd"
+                "reference": "a35900b93530715f8669c10e49756adde5c8e6fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/ada8ea2ebd8d6113cdaffe54b6dfed8c865ababd",
-                "reference": "ada8ea2ebd8d6113cdaffe54b6dfed8c865ababd",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/a35900b93530715f8669c10e49756adde5c8e6fc",
+                "reference": "a35900b93530715f8669c10e49756adde5c8e6fc",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,6 @@
                 "ext-json": "*",
                 "phpunit/phpunit": "~4.8|~9"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -62,7 +61,7 @@
             ],
             "support": {
                 "issues": "https://github.com/donatj/PhpUserAgent/issues",
-                "source": "https://github.com/donatj/PhpUserAgent/tree/master"
+                "source": "https://github.com/donatj/PhpUserAgent/tree/v1.7.0"
             },
             "funding": [
                 {
@@ -74,11 +73,11 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-24T12:16:26+00:00"
+            "time": "2022-08-06T15:41:58+00:00"
         },
         {
             "name": "olorin/user-agent-parser-interface",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexhamenko/user-agent-parser-interface.git",
@@ -90,7 +89,6 @@
                 "reference": "6c64b2d05d8fdb1e82812e5c8ac54ee4efc32017",
                 "shasum": ""
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -118,9 +116,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "donatj/phpuseragentparser": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
