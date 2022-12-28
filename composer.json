@@ -1,6 +1,6 @@
 {
     "name": "olorin/user-agent-parser-donatj",
-    "description": "Some",
+    "description": "Implementation of UserAgentParserInterface using donatj/PhpUserAgent library",
     "type": "library",
     "license": "MIT",
     "autoload": {
