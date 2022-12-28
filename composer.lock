@@ -1,0 +1,129 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "39b842776419c8040cc7be747f390d23",
+    "packages": [
+        {
+            "name": "donatj/phpuseragentparser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/donatj/PhpUserAgent.git",
+                "reference": "ada8ea2ebd8d6113cdaffe54b6dfed8c865ababd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/ada8ea2ebd8d6113cdaffe54b6dfed8c865ababd",
+                "reference": "ada8ea2ebd8d6113cdaffe54b6dfed8c865ababd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "camspiers/json-pretty": "~1.0",
+                "donatj/drop": "*",
+                "ext-json": "*",
+                "phpunit/phpunit": "~4.8|~9"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/UserAgentParser.php"
+                ],
+                "psr-4": {
+                    "donatj\\UserAgent\\": "src/UserAgent"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jesse G. Donat",
+                    "email": "donatj@gmail.com",
+                    "homepage": "https://donatstudios.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Lightning fast, minimalist PHP UserAgent string parser.",
+            "homepage": "https://donatstudios.com/PHP-Parser-HTTP_USER_AGENT",
+            "keywords": [
+                "browser",
+                "browser detection",
+                "parser",
+                "user agent",
+                "useragent"
+            ],
+            "support": {
+                "issues": "https://github.com/donatj/PhpUserAgent/issues",
+                "source": "https://github.com/donatj/PhpUserAgent/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/donatj/15",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/donatj",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-11-24T12:16:26+00:00"
+        },
+        {
+            "name": "olorin/user-agent-parser-interface",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexhamenko/user-agent-parser-interface.git",
+                "reference": "6c64b2d05d8fdb1e82812e5c8ac54ee4efc32017"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexhamenko/user-agent-parser-interface/zipball/6c64b2d05d8fdb1e82812e5c8ac54ee4efc32017",
+                "reference": "6c64b2d05d8fdb1e82812e5c8ac54ee4efc32017",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hillel\\UserAgent\\ParserInterface\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Hamenko",
+                    "email": "hamenko.aleksandr@gmail.com"
+                }
+            ],
+            "description": "Interface for services parsing User Agents",
+            "support": {
+                "issues": "https://github.com/alexhamenko/user-agent-parser-interface/issues",
+                "source": "https://github.com/alexhamenko/user-agent-parser-interface/tree/v1.0.0"
+            },
+            "time": "2022-12-28T11:57:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "donatj/phpuseragentparser": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

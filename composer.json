@@ -1,0 +1,22 @@
+{
+    "name": "olorin/user-agent-parser-donatj",
+    "description": "Some",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hillel\\UserAgent\\DonatjParser\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Hamenko",
+            "email": "hamenko.aleksandr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "donatj/phpuseragentparser": "dev-master",
+        "olorin/user-agent-parser-interface": "dev-master"
+    }
+}
