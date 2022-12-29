@@ -11,18 +11,15 @@ class DonatjService implements UserAgentParserInterface
     /** @var UserAgent */
     protected $_data;
 
-    public function __construct()
-    {
-        $this->setData();
-    }
-
     /**
+     * @param string|null $user_agent
+     *
      * @return void
      */
-    public function setData(): void
+    public function parse(?string $user_agent = null): void
     {
         $parser      = new UserAgentParser();
-        $this->_data = $parser->parse();
+        $this->_data = $parser->parse($user_agent);
     }
 
     /**

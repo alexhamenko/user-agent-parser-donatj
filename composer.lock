@@ -77,16 +77,16 @@
         },
         {
             "name": "olorin/user-agent-parser-interface",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alexhamenko/user-agent-parser-interface.git",
-                "reference": "6c64b2d05d8fdb1e82812e5c8ac54ee4efc32017"
+                "reference": "ba9a54272ec930879ec2ab8f9dde80367cd383cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alexhamenko/user-agent-parser-interface/zipball/6c64b2d05d8fdb1e82812e5c8ac54ee4efc32017",
-                "reference": "6c64b2d05d8fdb1e82812e5c8ac54ee4efc32017",
+                "url": "https://api.github.com/repos/alexhamenko/user-agent-parser-interface/zipball/ba9a54272ec930879ec2ab8f9dde80367cd383cf",
+                "reference": "ba9a54272ec930879ec2ab8f9dde80367cd383cf",
                 "shasum": ""
             },
             "type": "library",
@@ -108,9 +108,9 @@
             "description": "Interface for services parsing User Agents",
             "support": {
                 "issues": "https://github.com/alexhamenko/user-agent-parser-interface/issues",
-                "source": "https://github.com/alexhamenko/user-agent-parser-interface/tree/v1.0.0"
+                "source": "https://github.com/alexhamenko/user-agent-parser-interface/tree/v1.1.0"
             },
-            "time": "2022-12-28T11:57:17+00:00"
+            "time": "2022-12-29T17:25:26+00:00"
         }
     ],
     "packages-dev": [],
